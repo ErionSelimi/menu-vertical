@@ -34,13 +34,6 @@ a:hover {
 a:hover i {
     color:rgb(224, 156, 66);
 }
-nav a:focus{
-    color: white;
-    background-color: #0966c2;
-}
-a:focus i {
-    color:rgb(224, 156, 66);
-}
 
 @media(max-width:768px){
     nav {
