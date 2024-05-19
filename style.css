@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Varta:wght@300..700&display=swap');
+
+*, *::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Varta',sans-serif;
+}
+nav {
+    width: 30%;
+    border-right: 4px solid #0966c2;
+    height: 100vh;
+}
+nav ul{
+    list-style-type: none;
+    font-size: 2rem;
+}
+nav ul a {
+    color: #0966c2;
+    padding: 1rem;
+    display: block;
+    text-decoration: none;
+}
+i{
+    margin-right: 0.5rem;
+}
+
+a:hover {
+    background-color: #0966c2;
+    color: white;
+}
+a:hover i {
+    color:rgb(224, 156, 66);
+}
+
+@media(max-width:658px){
+    nav {
+        width: 100%;
+        height: 100dvh;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        align-items: left;
+        height: 100%;
+        font-size: 1rem;
+    }
+    nav a {
+        padding: 0.5rem;
+    }
+}
