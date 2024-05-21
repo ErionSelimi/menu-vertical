@@ -34,33 +34,6 @@ a:hover i{
     color: rgb(224, 156, 66);
 }
 
-/* nav {
-    width: 30%;
-    border-right: 4px solid #0966c2;
-    height: 100vh;
-}
-nav ul{
-    list-style-type: none;
-    font-size: 2rem;
-}
-nav ul a {
-    color: #0966c2;
-    padding: 1rem;
-    display: block;
-    text-decoration: none;
-}
-i{
-    margin-right: 0.5rem;
-}
-
-a:hover {
-    background-color: #0966c2;
-    color: white;
-}
-a:hover i {
-    color:rgb(224, 156, 66);
-} */
-
 @media(max-width:768px){
     nav {
         width: 100%;
