@@ -32,6 +32,8 @@ a:hover{
 }
 a:hover i{
     color: rgb(224, 156, 66);
+    animation-name: wobble;
+    animation-duration: 1s;
 }
 
 @media(max-width:768px){
